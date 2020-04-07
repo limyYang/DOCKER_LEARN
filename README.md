@@ -48,7 +48,7 @@
 
 `docker attach 546bjk33`: 进入容器546bjk33<br/>
 
-`docker exec 546bjk33 /bin/bash`: 通过命令进入容器546bjk33（在docker中执行容器里的命令）<br/>
+`docker exec -it 546bjk33 /bin/bash`: 通过命令进入容器546bjk33（在docker中执行容器里的命令）<br/>
 
 `docker ps 546bjk33:/tmp/yum.log /root`: 将容器546bjk33 tmp下的yum.log文件复制到宿主机 /root 路径下<br/>
 
